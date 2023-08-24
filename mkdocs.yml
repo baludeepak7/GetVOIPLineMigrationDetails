@@ -1,0 +1,8 @@
+site_name: 'GetVOIPLineMigrationDetails'
+repo_url: https://github.com/baludeepak7/GetVOIPLineMigrationDetails
+
+nav:
+  - Home: index.md
+  
+plugins:
+  - techdocs-core

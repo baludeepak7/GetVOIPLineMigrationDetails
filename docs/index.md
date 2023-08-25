@@ -19,7 +19,7 @@ Note: This service response time is only guaranteed when this service is called 
 
 ### Request Header
 
-  service - Identifies the name of the service. For non-service messages (such as notifications), identifies a "logical destination / topic "
+  service - Identifies the name of the service. For non-service messages (such as notifications), identifies a "logical destination or topic "
   
   operation - Identifies the operation to be performed.
   
@@ -33,9 +33,9 @@ Note: This service response time is only guaranteed when this service is called 
   
   requestTimestamp - Used to reflect the time when the message was created.
 
-  activityName - Identifies the name of the business transaction activity for the message being exchanged.The value corresponds the business process/use case.
+  activityName - Identifies the name of the business transaction activity for the message being exchanged.The value corresponds the business process or use case.
 
-  senderURI - Identifies the system / application sending the message.
+  senderURI - Identifies the system or application sending the message.
 
   originatorURI - Identifies the originator of the business process.
 
@@ -51,9 +51,9 @@ Note: This service response time is only guaranteed when this service is called 
 
   priority - Indicates message handling priority for messages.
 
-  senderCountry - Identifies the sender country code/name from where the request came from.
+  senderCountry - Identifies the sender country code or name from where the request came from.
 
-  targetCountry - Identifies the sender country code/name from where the message is intended.
+  targetCountry - Identifies the sender country code or name from where the message is intended.
 
 Error response 
 --------------

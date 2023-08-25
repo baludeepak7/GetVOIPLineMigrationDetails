@@ -18,3 +18,6 @@ Note: This service response time is only guaranteed when this service is called 
 ### Request Header
 
   
+service - Identifies the name of the service. For non-service messages (such as notifications), identifies a "logical destination or topic "
+  
+operation - Identifies the operation to be performed.

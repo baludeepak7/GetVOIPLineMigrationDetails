@@ -17,32 +17,29 @@ failure.
 
 ### Request 
 
-  **Parameter Name**                                       **Type**
-  -------------------------------------------------------- ----------
-  UpdateVOIPLineMigrationStatus.telephoneNumber            string
+  UpdateVOIPLineMigrationStatus.telephoneNumber            (string)
   
-  UpdateVOIPLineMigrationStatus.activity                   Object
+  UpdateVOIPLineMigrationStatus.activity                   (Object)
   
-  UpdateVOIPLineMigrationStatus.activity.name              string
+  UpdateVOIPLineMigrationStatus.activity.name              (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task              Object
+  UpdateVOIPLineMigrationStatus.activity.task              (Object)
   
-  UpdateVOIPLineMigrationStatus.activity.task.name         string
+  UpdateVOIPLineMigrationStatus.activity.task.name         (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task.status       string
+  UpdateVOIPLineMigrationStatus.activity.task.status       (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task.reason       string
+  UpdateVOIPLineMigrationStatus.activity.task.reason       (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task.reasonCode   string
+  UpdateVOIPLineMigrationStatus.activity.task.reasonCode   (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task.comments     string
+  UpdateVOIPLineMigrationStatus.activity.task.comments    (string)
   
-  UpdateVOIPLineMigrationStatus.activity.task.timestamp    dateTime
+  UpdateVOIPLineMigrationStatus.activity.task.timestamp    (dateTime)
 
-Error response {#error-response .ListParagraph}
+Error response 
 --------------
 
-  **Type**   **Code**   **Description**      **Severity**   **Source System**
-  ---------- ---------- -------------------- -------------- --------------------
-  SYSTEM     10686      System Exception     CRITICAL       Middleware
-  BUSINESS   10685      Business Exception   ERROR          Middleware/Backend
+  SYSTEM   -  10686    -  System Exception  -   CRITICAL    -   Middleware
+  
+  BUSINESS  - 10685   -   Business Exception -  ERROR       -   Middleware/Backend

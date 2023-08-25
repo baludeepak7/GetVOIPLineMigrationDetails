@@ -17,38 +17,4 @@ Note: This service response time is only guaranteed when this service is called 
 
 ### Request Header
 
-  service - Identifies the name of the service. For non-service messages (such as notifications), identifies a "logical destination or topic "
   
-  operation - Identifies the operation to be performed.
-  
-  version - Identifies the service version.
-  
-  conversationID - ConversationID is a unique identifier that remains unchanged for a complete business process and will be propagated  through all requests connected  with the business process.
-
-  requestID - RequestID is a unique identifier that is unique for a single request/response message and will be used to map long and error message to consumer's request.
-  
-  messageID - messageID is a unique identifier that is unique for a request/response message but exists within a sequence for invoked/composed services. messageID can be consider a sequence identifier.
-  
-  requestTimestamp - Used to reflect the time when the message was created.
-
-  activityName - Identifies the name of the business transaction activity for the message being exchanged.The value corresponds the business process or use case.
-
-  senderURI - Identifies the system or application sending the message.
-
-  originatorURI - Identifies the originator of the business process.
-
-  replyToURI - Used by request messages to specify destination for response message.
-
-  failureToURI - Identifies the application recieving the potential error notification message.
-
-  userId - USER ID to identify applicant
-
-  security - Contains confidential information used to secure message proccessing.
-
-  securityType - Identifies the type of credential in the security element.
-
-  priority - Indicates message handling priority for messages.
-
-  senderCountry - Identifies the sender country code or name from where the request came from.
-
-  targetCountry - Identifies the sender country code or name from where the message is intended.

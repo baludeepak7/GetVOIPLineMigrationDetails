@@ -43,3 +43,54 @@ securityType - Identifies the type of credential in the security element.
 
 priority - Indicates message handling priority for messages.
 
+### Query Parameters
+
+
+
+ telephoneNumber -  Yes        -     Telephone number, including any international dialling codes.
+                                    
+                                    Example Values: 01252700000
+                                    
+                                    Note that the given telephone number should be validated as per validation rules Error: Reference source not found.
+
+  context       -    No        -      Context is provided in order to return relevant migration details.
+                                    
+                                    Where no context is provided then “MIGRATION\_PHASE” context is used and only migration phase and customer interaction is returned.
+                                    
+                                    Valid Values are:
+                                    
+                                    MIGRATION\_PHASE
+                                    
+                                    MIGRATION\_ACTIVITY
+                                    
+                                    MIGRATION\_LINE\_FEATURES
+                                    
+                                    MIGRATION\_WORKORDER
+
+  accountNumber   -  Yes       -      A unique account identifier may only be unique with the combination of accountNumber and siteReference. Account number is a unique account identifier representing the customer account.
+                                    
+                                    Example Value: 104118503
+
+  siteReference   -  Yes       -      A unique account identifier may only be unique with the combination of accountNumber and siteReference. Site Reference can used to describe system and or system instance identifier.
+                                    
+                                    Example Value: 26
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Response {#response .ListParagraph}
+
+**HTTP Status code**: 200, 400 or 500
+
+Error response {#error-response .ListParagraph}
+--------------
+
+  ------------------------------------------------------------------------------
+  **Type**   **Code**   **Severity**   **Description**      **Source**
+                                                            
+                                                            **System**
+  ---------- ---------- -------------- -------------------- --------------------
+  SYSTEM     10686      CRITICAL       System Exception     Middleware/Backend
+
+  BUSINESS   10685      ERROR          Business Exception   Middleware
+
+  BUSINESS   10160      ERROR          No account found     Middleware
+  ------------------------------------------------------------------------------

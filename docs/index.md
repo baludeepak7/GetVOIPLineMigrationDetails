@@ -40,4 +40,8 @@ operation - Identifies the operation to be performed.
 
   replyToURI - Used by request messages to specify destination for response message.
 
+  failureToURI - Identifies the application recieving the potential error notification message.
+
+  userId - USER ID to identify applicant.
+
   

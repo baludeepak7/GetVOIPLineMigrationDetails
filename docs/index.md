@@ -49,8 +49,5 @@ priority - Indicates message handling priority for messages.
 
 Error response
 --------------
-
-  
-  SYSTEM  -    10686   -   System Exception  -   CRITICAL  -     Middleware
-  
-  BUSINESS -  10685    -  Business Exception -  ERROR      -   Middleware
+SYSTEM 10686 System Exception  CRITICAL Middleware
+ 

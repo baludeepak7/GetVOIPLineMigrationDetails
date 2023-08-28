@@ -43,7 +43,7 @@ Query Parameters
 
   telephoneNumber        (Yes) -   Telephone number, including any international dialling codes. e.g. 447874384949
   
-  context       (No) 
+  context       (No) - Context is provided in order to return relevant migration 
   
   x   (Yes) 
   

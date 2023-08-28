@@ -51,3 +51,5 @@ operation - Identifies the operation to be performed.
   priority - Indicates message handling priority for messages.
 
 ### Query Parameters
+
+telephoneNumber - Yes - Telephone number, including any international dialling codes. Example Values: 01252700000 Note that the given telephone number should be validated as per validation rules.

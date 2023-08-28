@@ -50,3 +50,4 @@ operation - Identifies the operation to be performed.
 
   priority - Indicates message handling priority for messages.
 
+  senderCountry - Identifies the sender country code or name from where the request came from.

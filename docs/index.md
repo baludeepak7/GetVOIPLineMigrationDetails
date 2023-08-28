@@ -51,6 +51,3 @@ priority - Indicates message handling priority for messages.
 
   SYSTEM - 10686 - System Exception - CRITICAL - Middleware
 
-  BUSINESS - 10685 - Business Exception - ERROR - Middleware
-
-  BUSINESS - 10160 - ERROR - No account found - Middleware

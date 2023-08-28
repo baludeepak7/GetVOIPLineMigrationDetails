@@ -44,3 +44,5 @@ securityType - Identifies the type of credential in the security element.
 priority - Indicates message handling priority for messages.
 
 ### Request  
+
+telephoneNumber        (String) -    e.g. 447874384949

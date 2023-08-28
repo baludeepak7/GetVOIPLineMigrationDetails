@@ -37,17 +37,17 @@ service are to call this service with the relevant
 context.*[[]{#_Toc256000916 .anchor}]{#scroll-bookmark-2064 .anchor}
 
 
-### CreateVOIPMigrationWorkOrder – POST
-Request
+### GetVOIPLineMigrationDetails – GET
+Query Parameters
 --------
 
-  telephoneNumber        (String) -    e.g. 447874384949
+  telephoneNumber        (Yes) -   Telephone number, including any international dialling codes. e.g. 447874384949
   
-  accountIdentification       (Object)  
+  context       (No)  
   
-  AccountIdentification.accountNumber   (String)  
+  x   (Yes)  
   
-  AccountIdentification.siteReference   (Numeric int)
+  siteReference   (Yes)
 
 Response
 --------

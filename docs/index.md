@@ -46,4 +46,3 @@ priority - Indicates message handling priority for messages.
 ### Response 
 
 **HTTP Status code**: 200, 400 or 500
-

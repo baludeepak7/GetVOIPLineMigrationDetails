@@ -43,11 +43,11 @@ Query Parameters
 
   telephoneNumber        (Yes) -   Telephone number, including any international dialling codes. e.g. 447874384949
   
-  context       (No)  
+  context       (No) - Context is provided in order to return relevant migration details.Where no context is provided then “MIGRATION\_PHASE” context is used and only migration phase and customer interaction is returned.  
   
-  x   (Yes)  
+  x   (Yes) - A unique account identifier may only be unique with the combination of accountNumber and siteReference. Account number is a unique account identifier representing the customer account.Example Value: 104118503
   
-  siteReference   (Yes)
+  siteReference   (Yes) - A unique account identifier may only be unique with the combination of accountNumber and siteReference. Site Reference can used to describe system and or system instance identifier.Example Value: 26
 
 Response
 --------

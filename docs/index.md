@@ -43,3 +43,7 @@ securityType - Identifies the type of credential in the security element.
 priority - Indicates message handling priority for messages.
 
 
+### Response 
+
+**HTTP Status code**: 200, 400 or 500
+

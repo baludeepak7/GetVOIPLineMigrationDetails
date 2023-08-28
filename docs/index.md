@@ -35,3 +35,21 @@ operation - Identifies the operation to be performed.
   activityName - Identifies the name of the business transaction activity for the message being exchanged.The value corresponds the business process or use case.
 
   senderURI - Identifies the system or application sending the message.
+
+  originatorURI - Identifies the originator of the business process.
+
+  replyToURI - Used by request messages to specify destination for response message.
+
+  failureToURI - Identifies the application recieving the potential error notification message.
+
+  userId - USER ID to identify applicant
+
+  security - Contains confidential information used to secure message proccessing.
+
+  securityType - Identifies the type of credential in the security element.
+
+  priority - Indicates message handling priority for messages.
+
+  senderCountry - Identifies the sender country code or name from where the request came from.
+
+  targetCountry - Identifies the sender country code or name from where the message is intended.

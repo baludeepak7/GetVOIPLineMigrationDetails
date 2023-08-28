@@ -48,6 +48,3 @@ priority - Indicates message handling priority for messages.
 **HTTP Status code**: 200, 400 or 500
 
 ### Error response 
-
-  SYSTEM - 10686 - System Exception - CRITICAL - Middleware
-

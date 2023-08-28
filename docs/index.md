@@ -45,9 +45,9 @@ Query Parameters
   
   context       (No) - Context is provided in order to return relevant migration 
   
-  x   (Yes) 
+  x   (Yes) - A unique account identifier may only be unique with the combination of accountNumber and siteReference. Account number is a unique account identifier representing the customer account
   
-  siteReference   (Yes) 
+  siteReference   (Yes) - A unique account identifier may only be unique with the combination of accountNumber and siteReference. Site Reference can used to describe system and or system instance identifier.
 
 Response
 --------

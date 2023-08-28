@@ -45,4 +45,4 @@ priority - Indicates message handling priority for messages.
 
 ### Request  
 
-telephoneNumber        (String) -    e.g. 447874384949
+  telephoneNumber (String) - e.g. 447874384949

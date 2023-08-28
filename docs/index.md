@@ -47,3 +47,7 @@ operation - Identifies the operation to be performed.
   security - Contains confidential information used to secure message proccessing.
 
   securityType - Identifies the type of credential in the security element.
+
+  priority - Indicates message handling priority for messages.
+
+  senderCountry - Identifies the sender country code or name from where the request came from.

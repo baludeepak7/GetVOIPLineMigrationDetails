@@ -52,4 +52,4 @@ operation - Identifies the operation to be performed.
 
 ### Query Parameters
 
-telephoneNumber
+telephoneNumber - Yes Telephone number, including any international dialling codes.

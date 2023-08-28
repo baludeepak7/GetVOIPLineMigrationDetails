@@ -43,13 +43,13 @@ securityType - Identifies the type of credential in the security element.
 
 priority - Indicates message handling priority for messages.
 
-### Query Parameters
+Request
+--------
 
- telephoneNumber (Yes)   -     Telephone number, including any international dialling codes.Example Values: 01252700000 . Note that the given telephone number should be validated as per validation rules Error: Reference source not found.
-
-  context  (No)        -      Context is provided in order to return relevant migration details.Where no context is provided then “MIGRATION\_PHASE” context is used and only migration phase and customer interaction is returned.
-
-  accountNumber (Yes)       -      A unique account identifier may only be unique with the combination of accountNumber and siteReference. Account number is a unique account identifier representing the customer account. Example Value: 104118503
-
-  siteReference (Yes)       -      A unique account identifier may only be unique with the combination of accountNumber and siteReference. Site Reference can used to describe system and or system instance identifier. Example Value: 26
-
+  telephoneNumber        (String) -    e.g. 447874384949
+  
+  accountIdentification       (Object)  
+  
+  AccountIdentification.accountNumber   (String)  
+  
+  AccountIdentification.siteReference   (Numeric int)

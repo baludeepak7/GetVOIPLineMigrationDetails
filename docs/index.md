@@ -1,4 +1,4 @@
-GetVOIPLineMigrationDetails
+### GetVOIPLineMigrationDetails
 
 Service Description
 The service is part of the integration flow “Resource Provisioning”.This operation allows service consumers to enquire about the Customer’s Migration Status (‘Migration Phases’ and ‘Migration Activities’) and ‘Migration Data’ (‘Migration Line Features’ and ‘Migration Workorder Details’ from Midas. This service getting the mentioned details from MiDaS by calling a ‘Stored Procedure’.
@@ -9,7 +9,7 @@ Following describes the valid context options for this service and the correspon
 
 Note: This service response time is only guaranteed when this service is called with a context, hence it is recommended for consumers of this service are to call this service with the relevant context.
 
-Request Header
+### Request Header
 service - Identifies the name of the service. For non-service messages (such as notifications), identifies a "logical destination or topic "
 
 operation - Identifies the operation to be performed.
@@ -42,17 +42,4 @@ securityType - Identifies the type of credential in the security element.
 
 priority - Indicates message handling priority for messages.
 
-
-### Response 
-
-**HTTP Status code**: 200, 400 or 500
-
-Error response 
---------------
-
-  SYSTEM   -  10686    -  CRITICAL   -    System Exception  -   Middleware/Backend
-
-  BUSINESS -  10685    -  ERROR       -   Business Exception -  Middleware
-
-  BUSINESS -  10160   -   ERROR     -     No account found   -  Middleware
 

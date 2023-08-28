@@ -43,13 +43,7 @@ securityType - Identifies the type of credential in the security element.
 
 priority - Indicates message handling priority for messages.
 
-Request
---------
+### Request
 
   telephoneNumber        (String) -    e.g. 447874384949
   
-  accountIdentification       (Object)  
-  
-  AccountIdentification.accountNumber   (String)  
-  
-  AccountIdentification.siteReference   (Numeric int)
